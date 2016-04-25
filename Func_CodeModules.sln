@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fstream读取中文路径",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "num2str", "num2str\num2str.vcxproj", "{E4F27012-9F79-4698-81B9-6C86093A93FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "str2num", "str2num\str2num.vcxproj", "{1705C06A-3AA5-4C2F-90B7-10D8DE6D1CB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{E4F27012-9F79-4698-81B9-6C86093A93FB}.Debug|Win32.Build.0 = Debug|Win32
 		{E4F27012-9F79-4698-81B9-6C86093A93FB}.Release|Win32.ActiveCfg = Release|Win32
 		{E4F27012-9F79-4698-81B9-6C86093A93FB}.Release|Win32.Build.0 = Release|Win32
+		{1705C06A-3AA5-4C2F-90B7-10D8DE6D1CB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1705C06A-3AA5-4C2F-90B7-10D8DE6D1CB8}.Debug|Win32.Build.0 = Debug|Win32
+		{1705C06A-3AA5-4C2F-90B7-10D8DE6D1CB8}.Release|Win32.ActiveCfg = Release|Win32
+		{1705C06A-3AA5-4C2F-90B7-10D8DE6D1CB8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
