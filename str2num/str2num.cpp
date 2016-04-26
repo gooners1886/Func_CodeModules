@@ -1,11 +1,23 @@
 #include <iostream>
-using namespace std;
-
-
-
 #include <sstream>
 #include <string>
-string num2str(double i);
+
+using namespace std;
+
+double myString2Double( std::string strNumber )
+{
+	double b = atof(strNumber.c_str());
+
+	return b;
+}
+
+double myString2Int( std::string strNumber )
+{
+	int i = atoi(strNumber.c_str());
+
+	return i;
+}
+
 void main()
 {
 	string str1 = "45";
