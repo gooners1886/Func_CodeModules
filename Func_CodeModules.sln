@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getTimeTick", "getTimeTick\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redirect_Output", "redirect_Output\redirect_Output.vcxproj", "{6EAFC326-B7A7-4448-BD3C-2B6ADDE6F37E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "time2String", "time2String\time2String.vcxproj", "{42566684-27F6-438B-BF79-E3F24B0EAA4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -55,6 +57,10 @@ Global
 		{6EAFC326-B7A7-4448-BD3C-2B6ADDE6F37E}.Debug|Win32.Build.0 = Debug|Win32
 		{6EAFC326-B7A7-4448-BD3C-2B6ADDE6F37E}.Release|Win32.ActiveCfg = Release|Win32
 		{6EAFC326-B7A7-4448-BD3C-2B6ADDE6F37E}.Release|Win32.Build.0 = Release|Win32
+		{42566684-27F6-438B-BF79-E3F24B0EAA4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42566684-27F6-438B-BF79-E3F24B0EAA4D}.Debug|Win32.Build.0 = Debug|Win32
+		{42566684-27F6-438B-BF79-E3F24B0EAA4D}.Release|Win32.ActiveCfg = Release|Win32
+		{42566684-27F6-438B-BF79-E3F24B0EAA4D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
