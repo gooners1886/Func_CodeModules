@@ -3,6 +3,26 @@
 #include <iostream>
 using namespace std;
 
+
+
+std::string myInt2String( const int& n )
+{
+	//*************** Method 1 *****************
+	//std::stringstream ss;
+	//std::string str;
+	//ss<<n;
+	//ss>>str;
+	//return str;
+
+	//**************** Method 2 *****************
+	std::stringstream ss;
+	ss<<n;
+	return	ss.str();
+
+}
+
+
+
 void main()
 {
 	int num1 = 45;
