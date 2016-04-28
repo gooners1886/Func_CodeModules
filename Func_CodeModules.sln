@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "math_SanJiaoHanShu", "math_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "floatNumEqual0", "floatNumEqual0\floatNumEqual0.vcxproj", "{E7420CA1-760F-48B8-818C-1D444CB857F5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrowseInAFolder_PYW", "BrowseInAFolder_PYW\BrowseInAFolder_PYW.vcxproj", "{3EE2046F-9ECE-4B15-BBDE-ECB2C8FDAD9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -73,6 +75,10 @@ Global
 		{E7420CA1-760F-48B8-818C-1D444CB857F5}.Debug|Win32.Build.0 = Debug|Win32
 		{E7420CA1-760F-48B8-818C-1D444CB857F5}.Release|Win32.ActiveCfg = Release|Win32
 		{E7420CA1-760F-48B8-818C-1D444CB857F5}.Release|Win32.Build.0 = Release|Win32
+		{3EE2046F-9ECE-4B15-BBDE-ECB2C8FDAD9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3EE2046F-9ECE-4B15-BBDE-ECB2C8FDAD9A}.Debug|Win32.Build.0 = Debug|Win32
+		{3EE2046F-9ECE-4B15-BBDE-ECB2C8FDAD9A}.Release|Win32.ActiveCfg = Release|Win32
+		{3EE2046F-9ECE-4B15-BBDE-ECB2C8FDAD9A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
