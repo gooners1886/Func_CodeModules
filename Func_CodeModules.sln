@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redirect_Output", "redirect
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "time2String", "time2String\time2String.vcxproj", "{42566684-27F6-438B-BF79-E3F24B0EAA4D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "math_SanJiaoHanShu", "math_SanJiaoHanShu\math_SanJiaoHanShu.vcxproj", "{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,10 @@ Global
 		{42566684-27F6-438B-BF79-E3F24B0EAA4D}.Debug|Win32.Build.0 = Debug|Win32
 		{42566684-27F6-438B-BF79-E3F24B0EAA4D}.Release|Win32.ActiveCfg = Release|Win32
 		{42566684-27F6-438B-BF79-E3F24B0EAA4D}.Release|Win32.Build.0 = Release|Win32
+		{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}.Debug|Win32.Build.0 = Debug|Win32
+		{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}.Release|Win32.ActiveCfg = Release|Win32
+		{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
