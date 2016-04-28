@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "time2String", "time2String\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "math_SanJiaoHanShu", "math_SanJiaoHanShu\math_SanJiaoHanShu.vcxproj", "{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "floatNumEqual0", "floatNumEqual0\floatNumEqual0.vcxproj", "{E7420CA1-760F-48B8-818C-1D444CB857F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -67,6 +69,10 @@ Global
 		{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}.Debug|Win32.Build.0 = Debug|Win32
 		{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}.Release|Win32.ActiveCfg = Release|Win32
 		{09EC6F20-20FF-428B-A7CE-0C253DAFB85A}.Release|Win32.Build.0 = Release|Win32
+		{E7420CA1-760F-48B8-818C-1D444CB857F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7420CA1-760F-48B8-818C-1D444CB857F5}.Debug|Win32.Build.0 = Debug|Win32
+		{E7420CA1-760F-48B8-818C-1D444CB857F5}.Release|Win32.ActiveCfg = Release|Win32
+		{E7420CA1-760F-48B8-818C-1D444CB857F5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
