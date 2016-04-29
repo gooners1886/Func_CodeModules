@@ -43,7 +43,7 @@ void main()
 
 	if (N<1)
 	{
-		cout<<"ERROR: No valid images in this folder!";
+		std::cout<<"ERROR: No valid images in folder "<<SrcImgFolder<<" !"<<std::endl;
 		return;
 	}
 
