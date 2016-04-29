@@ -18,7 +18,7 @@ string ext5 = ".ppm";
 string SrcImgFolder = "./src_image/";
 
 
-int main()
+void main()
 {
 	// 1. Find all the filenames	
 	cout<<"Find all the filenames ..."<<endl;
@@ -44,6 +44,7 @@ int main()
 	if (N<1)
 	{
 		cout<<"ERROR: No valid images in this folder!";
+		return;
 	}
 
 	for(int id_file = 0; id_file < strFileList.size(); id_file++)
@@ -60,12 +61,10 @@ int main()
 		string NameAndExtname = strFile.substr(q+1, path_size);//img186895.bmp
 
 		cout<<strFile<<endl;
-
-
 	}
 
 
-
+	return;
 }
 
 
