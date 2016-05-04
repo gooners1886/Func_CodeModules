@@ -1,6 +1,6 @@
-#include <iostream>
+ï»¿#include <iostream>
 
-// Ê¹ÓÃ http://blog.csdn.net/sms88/article/details/567109 ²©¿ÍµÄ·½·¨
+// ä½¿ç”¨ http://blog.csdn.net/sms88/article/details/567109 åšå®¢çš„æ–¹æ³•
 
 int main(void) 
 {
