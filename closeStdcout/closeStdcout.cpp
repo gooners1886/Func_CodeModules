@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 // 使用 http://blog.csdn.net/sms88/article/details/567109 博客的方法
 
 int main(void) 
