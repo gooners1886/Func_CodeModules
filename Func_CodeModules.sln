@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "输入输出格式化", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inline函数用法", "inline函数用法\inline函数用法.vcxproj", "{45A41AEA-AEE6-4436-B7D8-97D819C3A1AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateFolderAndSubfolder", "CreateFolderAndSubfolder\CreateFolderAndSubfolder.vcxproj", "{8963F524-11E2-400C-884D-921E3E487C61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -97,6 +99,10 @@ Global
 		{45A41AEA-AEE6-4436-B7D8-97D819C3A1AD}.Debug|Win32.Build.0 = Debug|Win32
 		{45A41AEA-AEE6-4436-B7D8-97D819C3A1AD}.Release|Win32.ActiveCfg = Release|Win32
 		{45A41AEA-AEE6-4436-B7D8-97D819C3A1AD}.Release|Win32.Build.0 = Release|Win32
+		{8963F524-11E2-400C-884D-921E3E487C61}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8963F524-11E2-400C-884D-921E3E487C61}.Debug|Win32.Build.0 = Debug|Win32
+		{8963F524-11E2-400C-884D-921E3E487C61}.Release|Win32.ActiveCfg = Release|Win32
+		{8963F524-11E2-400C-884D-921E3E487C61}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
