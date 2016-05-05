@@ -25,16 +25,21 @@ int main()
 
 	string str;
 	getline(infile, str);
-	cout << str << endl;
+	cout << "第一行: " << str << endl;
 	if ( str[0] == '*' )
 	{
 		cout<<"注释！"<<endl;
 	}
 
+	getline(infile, str);
+	cout << "第二行: " << str << endl;
+	string word;
 
 
 
-	int cols = 50;
+
+
+	int cols = 5;
 	vector<string> temp(cols);
 	for(int i = 0; i < cols; i++)
 	{
