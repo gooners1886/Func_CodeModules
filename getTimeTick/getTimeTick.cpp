@@ -1,4 +1,4 @@
-#include "time.h"
+ï»¿#include "time.h"
 #include "stdio.h"
 #include "stdlib.h"
 
@@ -6,13 +6,13 @@ int main(void)
 {
 	time_t c_start,t_start, c_end,t_end;
 
-	// time ¾«È·µ½Ãë
+	// time ç²¾ç¡®åˆ°ç§’
 	t_start = time(NULL) ;
 	system("pause");
 	t_end = time(NULL) ;
 	printf("The pause used %f s by clock()./n",difftime(t_end,t_start)) ;
 
-	// clock ¾«È·µ½ºÁÃë
+	// clock ç²¾ç¡®åˆ°æ¯«ç§’
 	c_start = clock();
 	system("pause");
 	c_end = clock();
