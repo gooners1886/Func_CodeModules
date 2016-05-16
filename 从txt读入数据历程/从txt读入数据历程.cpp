@@ -1,20 +1,18 @@
-#include <vector>
+ï»¿#include <vector>
 #include <iostream>
 #include <fstream>
 #include <string> 
-
-
 
 using namespace std;
 
 
 int main()
 {	
-	//×¢Òâ£º¸ÃÂ·¾¶²»ÄÜº¬ÓĞÖĞÎÄ×Ö·û£¬·ñÔò³ö´í£¡£¡
-	string total_name = "E:\\test_dir\\WriteSthInTxt.txt";
+	//æ³¨æ„ï¼šè¯¥è·¯å¾„ä¸èƒ½å«æœ‰ä¸­æ–‡å­—ç¬¦ï¼Œå¦åˆ™å‡ºé”™ï¼ï¼
+	string total_name = "./src_file/file.txt";
 
 	fstream infile;
-	//´ò¿ªÎÄ¼ş£¬¿ªÊ¼Ğ´Èë  ´´½¨Ò»¸ötxtÎÄ¼ş
+	//æ‰“å¼€æ–‡ä»¶ï¼Œå¼€å§‹å†™å…¥  åˆ›å»ºä¸€ä¸ªtxtæ–‡ä»¶
 	infile.open(total_name.c_str (), ios::in);
 	if(!infile)
 	{
@@ -25,17 +23,35 @@ int main()
 		cout<<"open txt successfully!!"<<endl;
 	}
 
-	int cols = 50;
+	string str;
+	getline(infile, str);
+	cout << "ç¬¬ä¸€è¡Œ: " << str << endl;
+	if ( str[0] == '*' )
+	{
+		cout<<"æ³¨é‡Šï¼"<<endl;
+	}
+
+	getline(infile, str);
+	cout << "ç¬¬äºŒè¡Œ: " << str << endl;
+	string word;
+
+
+
+
+
+	int cols = 5;
 	vector<string> temp(cols);
 	for(int i = 0; i < cols; i++)
 	{
-		//Óöµ½¿Õ¸ñ»òÕß»Ø³µ¶¼»áÍ£Ö¹±¾´Î¶ÁÈë
+		//é‡åˆ°ç©ºæ ¼æˆ–è€…å›è½¦éƒ½ä¼šåœæ­¢æœ¬æ¬¡è¯»å…¥
 		infile>>temp[i];
 	}
 
-	////½«¶ÁÈëµÄ×Ö·û´®×ª»»³ÉÊı×ÖµÄ·½·¨£º
-	////(1)ÏÈÓÃc_str()   
-	////(2)ÔÙÓÃatof atoiµÈº¯Êı×ª»»³Édouble intµÈÀàĞÍ
+
+
+	////å°†è¯»å…¥çš„å­—ç¬¦ä¸²è½¬æ¢æˆæ•°å­—çš„æ–¹æ³•ï¼š
+	////(1)å…ˆç”¨c_str()   
+	////(2)å†ç”¨atof atoiç­‰å‡½æ•°è½¬æ¢æˆdouble intç­‰ç±»å‹
 	//vector<double> itemp(cols);
 	//for (int i = 0; i < cols; i++)
 	//{
