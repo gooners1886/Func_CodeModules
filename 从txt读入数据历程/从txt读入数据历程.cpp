@@ -16,7 +16,7 @@ int main()
 	infile.open(total_name.c_str (), ios::in);
 	if(!infile)
 	{
-		cout<<"can not open the file!"<<endl;
+		cout<<"can not open the file:   "<<total_name<<endl;
 	}
 	else
 	{
@@ -24,6 +24,7 @@ int main()
 	}
 
 	string str;
+	//while( !infile.eof() )
 	getline(infile, str);
 	cout << "第一行: " << str << endl;
 	if ( str[0] == '*' )
@@ -58,6 +59,8 @@ int main()
 	//	itemp[i] = atof(temp[i].c_str());
 	//}
 
+
+	infile.close();
 
 	return 1;
 
