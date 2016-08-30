@@ -57,3 +57,5 @@ Temporary Items
 *.sdf
 Func_CodeModules.sdf
 *.sdf
+*.opensdf
+*.sdf

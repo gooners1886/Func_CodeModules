@@ -22,7 +22,7 @@ void main()
 	outfile.open(total_name.c_str (), ios::out);
 	if(!outfile)
 	{
-		cout<<"can not open the file!"<<endl;
+		cout<<"can not open the file!   "<<total_name<<endl;
 	}
 	else
 	{
