@@ -10,13 +10,9 @@ using namespace std;
 // strDstFolder  strSrcFolder жа ЪЧ \\ 
 
 
-string strFileListPath = "./filelist.txt";
+string strFileListPath = "./val.txt";
 string strSrcFolder = ".\\SrcFolder\\";
 string strDstFolder = ".\\DstFolder\\";
-
-
-
-
 
 
 int main()
@@ -33,8 +29,6 @@ int main()
 		cout<<"open txt successfully!!"<<endl;
 	}
 
-	
-
 	string str;
 	int iLineCounter = 0;
 	while( !infile.eof() )
@@ -44,18 +38,15 @@ int main()
 		cout<<"line "<<iLineCounter<<" str = "<<str<<endl;
 
 		string strCommond = "copy ";
-		strCommond = strCommond + strSrcFolder + str + " " + strDstFolder;
+		strCommond = strCommond + strSrcFolder + str + ".xml " + strDstFolder;
 		cout<<strCommond<<endl;
 		system( strCommond.c_str() );
 
 	}
 
-
 	infile.close();
 
 	return 1;
-
-
 }
 
 
